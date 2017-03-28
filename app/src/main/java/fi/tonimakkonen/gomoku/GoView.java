@@ -9,8 +9,8 @@ import android.util.AttributeSet;
  */
 public class GoView extends GLSurfaceView {
 
-	public GoView(Context context, AttributeSet attrs) {
-		super(context, attrs);
-	}
+    public GoView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
 
 }
