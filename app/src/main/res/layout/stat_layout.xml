@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/SCROLLER_ID"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:scrollbars="vertical"
+   		android:fillViewport="true">
+   		
+   		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:orientation="vertical"
+    		>
+    		
+   		    <!-- CURRENT GAME SECTION -->
+    		
+   		    <TextView
+   				android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:textAppearance="?android:attr/textAppearanceMedium"
+   				android:layout_margin="4dp"
+   				android:text="Current game"
+   				/>
+   		    
+   		    <TextView
+   		        android:id="@+id/stat_curgame"
+   				android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:typeface="monospace"
+   				android:layout_margin="4dp"
+   				/>
+   		    
+   		    <View
+  				android:layout_width="match_parent"
+  				android:layout_height="wrap_content"
+  				android:background="?android:attr/listDivider"
+  				/>
+   		    
+   		    <!-- LONG TIME RECORDS -->
+
+			<TextView
+   				android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:textAppearance="?android:attr/textAppearanceMedium"
+   				android:layout_margin="4dp"
+   				android:text="All records"
+   				/>
+
+       		<Spinner
+        		android:id="@+id/stat_rules_spinner"
+        		android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_margin="4dp"
+         		/>
+       
+       		<Spinner
+        		android:id="@+id/stat_board_spinner"
+        		android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_margin="4dp"
+         		/>
+       
+       		<TextView
+   				android:id="@+id/stat_long"
+   				android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:typeface="monospace"
+   				android:layout_margin="4dp"
+   				/>
+       
+       		<View
+  				android:layout_width="match_parent"
+  				android:layout_height="wrap_content"
+  				android:background="?android:attr/listDivider"
+  				/>
+       		
+       		<!-- RESET STATISTICS -->
+       		
+       		<Button
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Reset Statistics"
+    			android:layout_margin="4dp"
+    			android:layout_gravity="center_horizontal"
+       			/>
+       		
+       	</LinearLayout>
+       	
+</ScrollView>
+    

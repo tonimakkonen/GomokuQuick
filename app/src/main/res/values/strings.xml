@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gomoku Quick</string>
+    
+    <string name="mb_undo">Undo</string>
+    <string name="mb_redo">Redo</string>
+    <string name="mb_new">New Game</string>
+    <string name="mb_zoom">Zoom</string>
+    <string name="mb_options">Options</string>
+    
+    <string name="mb_zoomin">Zoom In</string>
+    <string name="mb_zoomout">Zoom Out</string>
+    <string name="mb_zoomreset">Reset</string>
+    
+    <string name="mb_info">Info</string>
+    <string name="mb_graph">Graphics</string>
+    <string name="mb_stat">Statistics</string>
+    
+    <string-array name="ng_ai_array">
+        <item>Player vs. player</item>
+        <item>Player vs. AI 1</item>
+        <item>Player vs. AI 2</item>
+        <item>Player vs. AI 3</item>
+    </string-array>
+    
+    <string-array name="ng_start_array">
+        <item>Player A starts</item>
+        <item>Player B start</item>
+    </string-array>
+    
+    <!-- Various game rules -->
+    
+    <string-array name="ng_rules_array">
+        <item>Standard gomoku</item>
+        <item>Caro (gomoku+)</item>
+        <item>6 in-a-row</item>
+    </string-array>
+    
+    <string-array name="ng_board_array">
+        <item>Standard 19x19 board</item>
+        <item>Hexagonal 19x19 board</item>
+    </string-array>
+    
+    <string name="ng_title">New Game</string>
+    
+    <string name="ng_playeraname">Player A</string>
+    <string name="ng_playerbname">Player B</string>
+    
+    <string name="ng_go">New Game</string>
+    <string name="ng_cancel">Cancel</string>
+    
+    <string name="human_name">Player A</string>
+    <string name="ai_name1">AI 1</string>
+    <string name="ai_name2">AI 2</string>
+    <string name="ai_name3">AI 3</string>
+    <string name="opponent_name">Player B</string>
+    
+    
+    <string name="ab_human_x">Place X</string>
+    <string name="ab_human_o">Place O</string>
+    
+    <string name="ab_ai_x">Placing X</string>
+    <string name="ab_ai_o">Placing O</string>
+    
+    <string name="ab_tie">It\'s a tie!</string>
+    <string name="ab_win_x">X wins!</string>
+    <string name="ab_win_o">O wins!</string>
+    <string name="ab_youwin">You win!</string>
+    <string name="ab_win">wins!</string>
+    
+    <string name="toast_taptap">Double tap for new game</string>
+    
+    <!-- Statistics dialog & statistics info -->
+    
+    <string name="stat_dialog_title">Statistics</string>
+    
+    <string-array name="stat_rules_array">
+        <item>All rules</item>
+        <item>Standard gomoku</item>
+        <item>Caro (gomoku+)</item>
+        <item>6-in-a-row</item>
+    </string-array>
+    
+    <string-array name="stat_board_array">
+        <item>All boards</item>
+        <item>Standard square</item>
+        <item>Hexagonal board</item>
+    </string-array>
+
+</resources>
