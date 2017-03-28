@@ -3,6 +3,9 @@ package fi.tonimakkonen.gomoku;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 
+/**
+ * Class used for storing current player information
+ */
 public class GoPlayers {
 	
 	// Names

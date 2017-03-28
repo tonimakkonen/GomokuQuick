@@ -15,6 +15,9 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 import fi.tonimakkonen.R;
 
+/**
+ * Statistic dialog for showing wins and lossess
+ */
 public class StatDialog extends DialogFragment implements OnItemSelectedListener {
 	
 	MainActivity mainActivity;

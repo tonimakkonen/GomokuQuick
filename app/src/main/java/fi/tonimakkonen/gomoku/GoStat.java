@@ -13,6 +13,9 @@ import android.util.Log;
 import android.content.res.Resources;
 
 
+/**
+ * Used to store game results in SQL Lite database.
+ */
 public class GoStat extends SQLiteOpenHelper {
 	
 	// SQLite database related

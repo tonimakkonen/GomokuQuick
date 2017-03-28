@@ -2,7 +2,9 @@ package fi.tonimakkonen.gomoku;
 
 import android.util.Log;
 
-// The AI class
+/**
+ * Runnable class
+ */
 public class GoAI implements Runnable {
 	
 	// A trivial class that will be executed on the UI thread informing

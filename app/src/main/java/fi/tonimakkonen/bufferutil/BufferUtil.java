@@ -5,6 +5,9 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.DoubleBuffer;
 
+/**
+ * Utility for creating float and double buffers.
+ */
 public class BufferUtil {
 	
 	// float //

@@ -2,10 +2,9 @@ package fi.tonimakkonen.hexutil;
 
 import fi.tonimakkonen.gridutil.GridIndex;
 
-//
-// A class used to probe neighboring tiles on a hex grid
-//
-
+/**
+ * A class used to loop neighbors on a hexagonal grid.
+ */
 public class HexNeighborLooper {
 	
 	public static int oddDeltaX[]  = {  1,  0, -1, -1,  0,  1};

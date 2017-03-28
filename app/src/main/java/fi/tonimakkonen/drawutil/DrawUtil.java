@@ -7,10 +7,11 @@ import java.nio.FloatBuffer;
 
 import fi.tonimakkonen.bufferutil.*;
 
-// Draw utilities for various simple 2D and 3D objects
-
-// TODO: This funcking ENTIRE CLASS AGAIN!!
-
+/**
+ * General OpenGL ES 1.0 drawing utility class.
+ *
+ * TODO: This class requires quite a lot refactoring.
+ */
 public class DrawUtil {
 	
 	// Variables

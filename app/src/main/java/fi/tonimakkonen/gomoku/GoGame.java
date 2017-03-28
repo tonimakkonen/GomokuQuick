@@ -9,10 +9,10 @@ import fi.tonimakkonen.hexutil.HexNeighborLooper;
 
 import android.content.SharedPreferences;
 
-// The class for the game
-
-// TODO: Make this the base class and derive other game types from this
-
+/**
+ * The class containing the state of the Gomoku game, the rule set, the used board, and the moves.
+ * This class also contains a lot of helper functions that are used by the AI.
+ */
 public class GoGame implements Cloneable {
 	
 	// what type of gomoku game?

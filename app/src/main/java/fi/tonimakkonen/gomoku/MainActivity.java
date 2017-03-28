@@ -22,7 +22,9 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-
+/**
+ * The entire game runs in this activity.
+ */
 public class MainActivity extends Activity
 		implements OnTouchListener, GestureDetector.OnGestureListener, OnScaleGestureListener, GoAIListener, OnDoubleTapListener  {
 	

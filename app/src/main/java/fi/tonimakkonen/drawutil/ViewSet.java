@@ -3,6 +3,9 @@ package fi.tonimakkonen.drawutil;
 
 import javax.microedition.khronos.opengles.GL10;
 
+/**
+ * Class used to set up a view in OpenGL ES 1.0.
+ */
 public class ViewSet {
 	
 	// set up gui view

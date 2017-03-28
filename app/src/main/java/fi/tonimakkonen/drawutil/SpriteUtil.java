@@ -6,7 +6,9 @@ import javax.microedition.khronos.opengles.GL10;
 
 import fi.tonimakkonen.bufferutil.BufferUtil;
 
-// An utility class for drawing sprites
+/**
+ * A utility class for drawing spheres in OpenGL ES 1.0.
+ */
 public class SpriteUtil {
 
 	// Are static variables initialized?

@@ -1,5 +1,8 @@
 package fi.tonimakkonen.gridutil;
 
+/**
+ * A class used to help in calculations on a normal grid.
+ */
 public class GridCalc {
 	
 	// Moving on normal grid //

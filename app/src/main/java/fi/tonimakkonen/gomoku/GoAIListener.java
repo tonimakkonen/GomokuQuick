@@ -1,9 +1,8 @@
 package fi.tonimakkonen.gomoku;
 
-//
-// An interface that listens to choices the AI makes
-//
-
+/**
+ * An interface where the AI informs moves.
+ */
 public interface GoAIListener {
 	
 	// 

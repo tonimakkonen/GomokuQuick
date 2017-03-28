@@ -15,6 +15,9 @@ import android.widget.Spinner;
 
 import fi.tonimakkonen.R;
 
+/**
+ * New game dialog
+ */
 public class NewGameDialog extends DialogFragment implements OnItemSelectedListener, DialogInterface.OnClickListener {
 	
 	MainActivity mainActivity;

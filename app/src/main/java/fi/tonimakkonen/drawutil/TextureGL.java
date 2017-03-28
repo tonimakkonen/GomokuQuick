@@ -2,25 +2,24 @@ package fi.tonimakkonen.drawutil;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import fi.tonimakkonen.resutil.LoadableResource;
-
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.opengl.GLUtils;
 
-public class TextureGL implements LoadableResource {
+/**
+ * A texture for Open GL ES 1.0.
+ */
+public class TextureGL {
 	
 	private int openGLTex[] = null; // OpenGL texture pointer
 	private int resID = -1;        // image ID in resources
 	
 	// Is loaded?
-	@Override
 	public boolean isLoaded() {
 		return openGLTex != null;
 	}
-	
-	@Override
+
 	public boolean isDefined() {
 		return resID != -1;
 	}
@@ -33,7 +32,6 @@ public class TextureGL implements LoadableResource {
 	
 	// Load resources
 	// This will bind the texture
-	@Override
 	public boolean loadThisResource(Resources res, GL10 gl) {
 		load(res, resID, gl);
 		return true;

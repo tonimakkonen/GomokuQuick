@@ -6,6 +6,9 @@ import java.nio.FloatBuffer;
 
 import fi.tonimakkonen.bufferutil.*;
 
+/**
+ * Utility class for rendering a translucent glowing sphere in OpenGL ES 1.0.
+ */
 public class GlowBallUtil {
 	
 	private FloatBuffer vertexPos = null;

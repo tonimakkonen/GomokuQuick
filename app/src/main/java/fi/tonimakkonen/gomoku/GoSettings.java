@@ -1,5 +1,8 @@
 package fi.tonimakkonen.gomoku;
 
+/**
+ * Class used to store game settings
+ */
 public class GoSettings {
 
 	public static final int goNormalSide = 19; // size of normal gomoku board

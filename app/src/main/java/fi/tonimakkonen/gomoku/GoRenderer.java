@@ -19,7 +19,9 @@ import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.opengl.GLSurfaceView.Renderer;
 
-
+/**
+ * A OpenGl Rendeded for the Gomoku game
+ */
 public class GoRenderer implements Renderer {
 	
 	// Screen width & height

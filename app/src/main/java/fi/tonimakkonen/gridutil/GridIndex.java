@@ -1,5 +1,8 @@
 package fi.tonimakkonen.gridutil;
 
+/**
+ * Grid index on a standard tile or a hexagona tile
+ */
 public class GridIndex {
 
 	public int ix;

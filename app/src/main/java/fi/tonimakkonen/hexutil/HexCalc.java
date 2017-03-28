@@ -2,6 +2,9 @@ package fi.tonimakkonen.hexutil;
 
 import fi.tonimakkonen.gridutil.GridIndex;
 
+/**
+ * Class used to simplify calculations on a hex grid.
+ */
 public class HexCalc {
 	
 	// Generic math values //
