@@ -9,7 +9,6 @@ import java.nio.FloatBuffer;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import fi.tonimakkonen.R;
 import fi.tonimakkonen.bufferutil.BufferUtil;
 import fi.tonimakkonen.drawutil.DrawUtil;
 import fi.tonimakkonen.drawutil.GlowBallUtil;

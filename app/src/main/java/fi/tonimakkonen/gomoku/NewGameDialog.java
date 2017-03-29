@@ -13,8 +13,6 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import fi.tonimakkonen.R;
-
 /**
  * New game dialog
  */

@@ -20,7 +20,6 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-import fi.tonimakkonen.R;
 import fi.tonimakkonen.drawutil.DrawUtil;
 
 /**
