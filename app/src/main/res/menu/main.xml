@@ -52,11 +52,6 @@
 					android:title="@string/mb_info"
 					android:onClick="onPressInfo"
 					 />
-              
-              <item android:id="@+id/action_graphics"
-					android:title="@string/mb_graph"
-					android:onClick="onPressGraph"
-					 />
 
               <item android:id="@+id/action_stat"
 					android:title="@string/mb_stat"
