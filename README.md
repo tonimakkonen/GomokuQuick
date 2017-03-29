@@ -21,3 +21,7 @@ The minimax algorithm counts moves close to the last move and then moves next to
 ## Limitations
 
 Some tweaking to the AI is still required, as it does not perform well on other games than classic Gomoku.
+
+## Other
+
+Some of the graphical resources have been created using Android Asset Studio: https://jgilfelt.github.io/AndroidAssetStudio/
