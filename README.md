@@ -3,6 +3,8 @@
 A simple Android app that can be used to play Gomoku againts the computer or a human opponent on the same device.
 This project was quickly put together in early 2014, added to GitHub March 2017, and the code currently being cleaned up.
 
+This project is available in Google Play store: https://play.google.com/store/apps/details?id=fi.tonimakkonen.gomoku
+
 ## Features
 
 Gomoku Quick allows playing againts the CPU and againts a human opponent on the same phone.
